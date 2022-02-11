@@ -1,0 +1,49 @@
+h1{
+    text-align:center;
+    }
+    div#container{
+        position:relative;
+        top:10px;
+    }
+    div > p#title1{
+        position:absolute;
+        right:0px;
+        top:0px;
+        border:1px solid black;
+        background-color:#b980ab;
+        margin:0;
+        padding:5px;
+    }
+    div > p#title2{
+        position:absolute;
+        right:0px;
+        top:0px;
+        border:1px solid black;
+        background-color:#c22727;
+        margin:0;
+        padding:5px;
+    }
+    div > p#title3{
+        position:absolute;
+        right:0px;
+        top:0px;
+        border:1px solid black;
+        background-color:#dbbc57;
+        margin:0;
+        padding:5px;
+    }
+    div.menu{
+        position:absolute;
+        background-color:#808080;
+        margin:10px;
+        width:30%;
+        border:1px solid black;
+        padding:10px;
+        
+    }
+    #menu2{
+        left:33%;
+    }
+    #menu3{
+        left:66%;
+    }

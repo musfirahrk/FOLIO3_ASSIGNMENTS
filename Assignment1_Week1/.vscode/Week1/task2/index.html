@@ -1,0 +1,82 @@
+<!Doctype html>
+<html>
+<head>
+<title>My Practice Website</title>
+<link href="style2.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+
+    <div class="navbar" >
+        <a class="active" href="#home">Home </a>
+        <a href="#aboutMe" > About Me </a>
+        <a href="#contact" > Contact</a>
+      </div>
+      
+    <h1>My Website </h1>
+   
+    <div id="Home">
+        <div class="row">
+            <div class="column">
+              <img src="1.jpg" alt="Snow" style="width:100%;" />
+            </div>
+            <div class="column">
+              <img src="2.jpg" alt="Forest" style="width:100%;"/>
+            </div>
+            <div class="column">
+              <img src="3.jpg" alt="Mountains" style="width:100%;" />
+            </div>
+            <div class="column">
+                <img src="4.jpg" alt="Mountains" style="width:100%;" />
+              </div>
+              <div class="column">
+                <img src="5.jpg" alt="Mountains" style="width:100%;" />
+              </div>
+              <div class="column">
+                <img src="6.jpg" alt="Mountains" style="width:100%;" />
+              </div>
+          </div>
+    </div>
+
+    <div id="aboutMe">
+        <div id="container">
+           <div class="menu">
+               <p id="title">Musfirah Riaz</p>
+               <p id="body">21 year old writer and poet, Musfirah Riaz is working as a full stack developer in a software house and 
+                   also completing her undergraduate studies from NED.
+               </p>
+           </div>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="containerContact">
+            <div style="text-align:center">
+              <h2>Contact Us</h2>
+            </div>
+            <div class="row1">
+              <div class="column1">
+                <img src="1.jpg" style="width:100%">
+              </div>
+              <div class="column">
+                <form action="/action_page.php">
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  <label for="country">Country</label>
+                  <select id="country" name="country">
+                    <option value="australia">Pakistan</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                  </select>
+                  <label for="subject">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                  <input type="submit" value="Submit">
+                </form>
+              </div>
+            </div>
+          </div>
+    </div>
+    </body>
+    </html>
